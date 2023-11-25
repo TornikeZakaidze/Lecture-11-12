@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .threePhoto img {
+        width: 200px;
+        height: 200px;
+        justify-content: space-around;
+    }
+    .leftForm textarea {
+        width: 400px;
+        height: 157px;
+    }
+    input[type="text"] {
+        width: 157px;
+        height: 30px;
+    }
+    input[type="submit"] {
+        width: 157px;
+        height: 30px;
+    }
+    .rightForm {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact {
+        width: 100px;
+    }
+  }
+@media only screen and (max-width:850px) {
+    .container {
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .threePhoto img {
+        width: 180px;
+        height: 180px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /* margin: 0 10px 0 10px; */
+    }
+    .footer-Rec p {
+        width: 170px;
+    }
+} 

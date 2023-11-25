@@ -139,6 +139,11 @@ form {
 .contact p , h2 {
     margin-bottom: 8px;
 }
+.contact {
+    display: flex;
+    width: 226px;
+    align-items: center;
+}
 
 /* SECTION 3 */
 /* SECTION 3 */
