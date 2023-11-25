@@ -1,0 +1,266 @@
+.container {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+/* HEADER */
+/* HEADER */
+
+header {
+    margin: 57px 0;
+} 
+header a , .sec3 a  {
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5863E3;
+}
+header h2 {
+    font-family: Helvetica;
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    max-width: 371px;
+}
+
+/* SECTIONS */
+/* SECTIONS */
+/* SECTIONS */
+
+.leftForm textarea {
+    padding-top: 23px;
+    padding-left: 21px;
+    width: 756px;
+    height: 298px;
+    resize: none;
+    border: 2px solid rgba(212, 211, 211, 0.3);
+    background: #f8f8f8;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+
+}
+.rightForm {
+    margin-left: 20px;
+    max-width: 370px;
+}   
+input[type="text"] {
+    width: 370px;
+    height: 59px;
+    border: 2px solid rgba(212, 211, 211, 0.3);
+    background: #f8f8f8;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    margin-bottom: 20px;
+    padding-left: 19px;
+}
+input[type="submit"] {
+    width: 370px;
+    height: 59px;
+    background: #5968F4;
+    border: none;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0em;
+    color: #fbfbff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+form {
+    display: flex;
+}
+
+/* CONTACT SECTION */
+/* CONTACT SECTION */
+/* CONTACT SECTION */
+
+.sec2 {
+    margin-top: 51px;
+    margin-bottom: 74px;
+}
+.contactSection {
+    display: flex;
+    justify-content: space-around;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.smallIcon {
+    width: 68px;
+    height: 68px;
+    background-color: #5968f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+.smallIcon i {
+    font-size: 35px;
+    color: #344188;
+}
+.contact h2 {
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: rgba(78, 77, 84, 1);
+}
+.contact p {
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: rgba(153, 153, 154, 1);
+
+}
+.contact p , h2 {
+    margin-bottom: 8px;
+}
+
+/* SECTION 3 */
+/* SECTION 3 */
+/* SECTION 3 */
+
+.sec3 h2 {
+    font-family: Helvetica;
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 1);
+    max-width: 548px;
+}
+.threePhoto{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 53px;
+    margin-bottom: 39px;
+}
+.img1 {
+    width: 350px;
+    height: 350px;
+}
+.img2 {
+    width: 350px;
+    height: 350px;
+}
+.img3 {
+    width: 350px;
+    height: 350px;
+}
+
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+
+.footer-Rec {
+    width: 100%;
+    height: 372px;
+    background-color: #000000;
+}
+.info {
+    padding-top: 63px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-Rec h2 {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 23px;
+}
+.footer-Rec p {
+    color: #99999A;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 295px;
+}
+.links h3 {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 32px;
+}
+.links li{
+    color: #5863E3;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 9px;
+}
+.privacy h3 {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 32px;
+}
+.privacy li {
+    color: #5863E3;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 9px;
+}
+.contact-Info h3 {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 32px;
+}
+.contact-Icons div {
+color: #5863E3;
+padding-bottom: 15px;
+display: flex;
+}
+.contact-Icons li {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 14px;
+} 
