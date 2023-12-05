@@ -29,7 +29,7 @@
         width: 100px;
     }
   }
-@media only screen and (max-width:851px) {
+@media only screen and (max-width:850px) {
     .container {
         max-width: 600px;
         width: 100%;
